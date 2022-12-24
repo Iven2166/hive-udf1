@@ -17,4 +17,4 @@ public class arrayDoubleSimCosine extends UDF {
         }
         return sum / Math.sqrt (x_square) / Math.sqrt (y_square);
     }
-}
+}//
