@@ -15,6 +15,6 @@ public class arrayDoubleSimCosine extends UDF {
             x_square += Math.pow (x.get (i), 2);
             y_square += Math.pow (y.get (i), 2);
         }
-        return sum / Math.sqrt (x_square) / Math.sqrt (y_square);
+        return sum / Math.sqrt (x_square) / Math.sqrt (y_square);  //
     }
 }//
